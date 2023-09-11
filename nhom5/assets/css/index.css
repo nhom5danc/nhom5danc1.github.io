@@ -1,0 +1,301 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav{
+
+}
+ 
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(https://haycafe.vn/wp-content/uploads/2022/03/Background-den-khoang-lang.jpg) top center / cover no-repeat;
+}
+
+#slider .text-content {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#slider .text-heading {
+    padding-bottom:25%;
+    font-weight: 500;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#slider .text-description h2{
+    
+    padding-bottom: 10%;
+
+}
+
+
+
+#content .content-section{
+    width: 800px;
+    padding: 60px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#content .section-heading {
+    font-size: 50px;
+    text-align: center;
+    color: #F0B86E;
+    letter-spacing: 3px;
+}
+
+#content .section-sub-heading {
+    font-size: 30px;
+    text-align: center;
+    color: deepskyblue;
+    margin-top: 30px;
+    margin-left: -220px;
+    margin-right: -220px;
+    
+}
+
+
+
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f2f3f7;
+   
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1 .card{
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+                -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+}
+
+.container1 .card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 .card .content .imgBx{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.container1 .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MSSV{
+    margin-left: 40px;
+}
+
+.MSSV2{
+    margin-left: 80px;
+}
+.MSSV3{
+    margin-left: 60px;
+}
+
+.csi{
+    text-align: center;
+    
+}
+#control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+
+#control .content-section{
+    width: 800px;
+    padding: 60px 0;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+#control .section-heading {
+    font-size: 50px;
+    text-align: center;
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 580px;
+    
+}
+
+
+.container {
+    color: white;
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search-bar {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.search-icon {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+}
+
+#search-input {
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    background: transparent;
+    height: 20px;
+    color: white;
+}
+
+#search-input::placeholder {
+    color: rgb(206,206,206);
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 80px 50px;
+}
+
+.city-name {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.weather-state {
+    font-size: 13px;
+}
+
+.weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.temperature {
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1;
+    position: relative;
+}
+
+.temperature::after {
+    content: 'o';
+    position: absolute;
+    font-size: 30px;
+}
+
+.additional-section {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.additional-section .row {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.additional-section .item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.additional-section .item .label {
+    font-weight: bold;
+}
+
+
+
